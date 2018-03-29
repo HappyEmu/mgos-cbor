@@ -1,10 +1,12 @@
 author: mongoose-os
 type: lib
-description: An empty lib that does nothing
+description: A CBOR library
 version: 1.0
 
 sources:
   - src
+includes:
+  - include
 filesystem:
   - fs
 config_schema:
